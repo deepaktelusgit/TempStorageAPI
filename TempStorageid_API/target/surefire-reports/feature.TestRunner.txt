@@ -1,0 +1,197 @@
+-------------------------------------------------------------------------------
+Test set: feature.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.207 s <<< FAILURE! - in feature.TestRunner
+testParallel  Time elapsed: 16.2 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:31
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:43
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:54
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:65
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:79
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:93
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:105
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:117
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TNandBAN.feature:129
+js failed:
+>>>>
+01: karate.callSingle('classpath:feature/TempStorage_a_POST.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: status code was: 403, expected: 201, response time in milliseconds: 172, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:33
+status code was: 403, expected: 201, response time in milliseconds: 188, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:43
+status code was: 403, expected: 201, response time in milliseconds: 206, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:53
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:234)
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:179)
+- <js>.:program(Unnamed:1)
+
+classpath:feature/TempStorage_b_GET.feature:12
+js failed:
+>>>>
+01: karate.callSingle('classpath:feature/TempStorage_a_POST.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: status code was: 403, expected: 201, response time in milliseconds: 172, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:33
+status code was: 403, expected: 201, response time in milliseconds: 188, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:43
+status code was: 403, expected: 201, response time in milliseconds: 206, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:53
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:234)
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:179)
+- <js>.:program(Unnamed:1)
+
+classpath:feature/TempStorage_b_GET.feature:12
+js failed:
+>>>>
+01: karate.callSingle('classpath:feature/TempStorage_a_POST.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: status code was: 403, expected: 201, response time in milliseconds: 172, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:33
+status code was: 403, expected: 201, response time in milliseconds: 188, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:43
+status code was: 403, expected: 201, response time in milliseconds: 206, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:53
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:234)
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:179)
+- <js>.:program(Unnamed:1)
+
+classpath:feature/TempStorage_b_GET.feature:12
+js failed:
+>>>>
+01: karate.callSingle('classpath:feature/TempStorage_a_POST.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: status code was: 403, expected: 201, response time in milliseconds: 172, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:33
+status code was: 403, expected: 201, response time in milliseconds: 188, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:43
+status code was: 403, expected: 201, response time in milliseconds: 206, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:53
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:234)
+- com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:179)
+- <js>.:program(Unnamed:1)
+
+classpath:feature/TempStorage_b_GET.feature:12
+status code was: 403, expected: 404, response time in milliseconds: 156, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?ban=70970024, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:19
+status code was: 403, expected: 404, response time in milliseconds: 168, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4161404453, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:26
+status code was: 403, expected: 404, response time in milliseconds: 153, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4161404453&ban=70970024, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:34
+status code was: 403, expected: 400, response time in milliseconds: 151, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?ban=4r5t6y6y, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:41
+status code was: 403, expected: 400, response time in milliseconds: 161, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=7801234567, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:48
+status code was: 403, expected: 400, response time in milliseconds: 148, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=7801234567&ban=4r5t6y6y, response: 
+{"message":"Forbidden"}
+classpath:feature/API_Negative_Response_Test.feature:56
+status code was: 403, expected: 200, response time in milliseconds: 201, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=2507166032, response: 
+{"message":"Forbidden"}
+classpath:feature/AccountAccuracy.feature:22
+status code was: 403, expected: 200, response time in milliseconds: 153, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040522394, response: 
+{"message":"Forbidden"}
+classpath:feature/AccountAccuracy.feature:48
+status code was: 403, expected: 404, response time in milliseconds: 156, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040585973, response: 
+{"message":"Forbidden"}
+classpath:feature/AccountAccuracy.feature:61
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:30
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:41
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:54
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:64
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:75
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_BAN.feature:87
+status code was: 403, expected: 201, response time in milliseconds: 730, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:33
+status code was: 403, expected: 201, response time in milliseconds: 231, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:43
+status code was: 403, expected: 201, response time in milliseconds: 204, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/create?ttl=10000&group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/create","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_a_POST.feature:53
+status code was: 403, expected: 200, response time in milliseconds: 176, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/update?ttl=10000&group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/update","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_c_PUT.feature:32
+status code was: 403, expected: 200, response time in milliseconds: 189, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/1/retrieve?group=a, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/1/retrieve","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_c_PUT.feature:39
+status code was: 403, expected: 200, response time in milliseconds: 234, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/update?group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/update","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_c_PUT.feature:51
+status code was: 403, expected: 200, response time in milliseconds: 174, url: https://apigw-st.telus.com/customer/contactCenterTempStorage/v1/storage/2/retrieve?group=b, response: 
+{"code":"403","reason":"you are not allowed for the request","message":"you are not allowed for the request: /customer/TempStorage/v1/storage/2/retrieve","status":"FORBIDDEN","referenceError":"java.lang.Exception: you are not allowed for the request","createTs":null}
+classpath:feature/TempStorage_c_PUT.feature:58
+status code was: 403, expected: 200, response time in milliseconds: 149, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?ban=700102278, response: 
+{"message":"Forbidden"}
+classpath:feature/AccountTag.feature:20
+status code was: 403, expected: 200, response time in milliseconds: 168, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?ban=603958444, response: 
+{"message":"Forbidden"}
+classpath:feature/AccountTag.feature:32
+status code was: 403, expected: 200, response time in milliseconds: 135, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=7788882617, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:25
+status code was: 403, expected: 200, response time in milliseconds: 149, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=9059091706, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:25
+status code was: 403, expected: 200, response time in milliseconds: 144, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4161543587, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:25
+status code was: 403, expected: 200, response time in milliseconds: 146, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4031726038, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:25
+status code was: 403, expected: 200, response time in milliseconds: 148, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4373488823, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:25
+status code was: 403, expected: 200, response time in milliseconds: 164, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=5141612475, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:35
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:53
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:63
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:75
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:86
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:99
+status code was: 403, expected: 200, response time in milliseconds: 152, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=4161542580, response: 
+{"message":"Forbidden"}
+classpath:feature/CCE_TN.feature:106
+result is neither list nor function: [type: MAP, value: {message=Forbidden}]
+classpath:feature/CCE_TN.feature:123 ==> expected: <true> but was: <false>
+	at feature.TestRunner.testParallel(TestRunner.java:24)
+

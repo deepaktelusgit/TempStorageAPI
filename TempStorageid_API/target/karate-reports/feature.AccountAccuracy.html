@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>feature.AccountAccuracy</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-08-09 01:04:50 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:28]"><span>[1.1:28]</span> <span>account with exact tn match - criteria 1</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3.1:54]"><span>[3.1:54]</span> <span>account with wireline contact tn - criteria 4</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4.1:64]"><span>[4.1:64]</span> <span>account with contact tn zero percentage - criteria 8</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">feature/AccountAccuracy.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Validate account accuracy for tn/contact search update</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:28]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">env=it01,it02,it03,it04</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:28]</span>
+                <span class="scenario-name">account with exact tn match - criteria 1</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>213</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:28]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">13:04:49.849 karate.env system property was: it01 
+13:04:49.849 clientId:52e80bfa-b42c-47d7-98b5-8bb87c926209 
+13:04:49.851 Current URL is : https://apigw-st.telus.com 
+13:04:49.851 Current Env is : it01 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header env = env</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header x-cloud-trace-context = &#39;karate-integration-test&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure readTimeout = 20000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+authInfo.response.access_token;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print authInfo.response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.11">13:04:49.859 [print] eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file1 = &#39;tn_search_criteria1.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file2 = &#39;tn_search_criteria2.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file4 = &#39;tn_search_criteria4.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file8 = &#39;tn_search_criteria8.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;customer/contactCenterCustomerInfo/v1/account&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param tn = &#39;2507166032&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">204</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.21">13:04:49.865 request:
+1 &gt; GET https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=2507166032
+1 &gt; accept: application/json
+1 &gt; env: it01
+1 &gt; x-cloud-trace-context: karate-integration-test
+1 &gt; Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A
+1 &gt; Host: apigw-st.telus.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:04:50.066 response time in milliseconds: 201
+1 &lt; 403
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 23
+1 &lt; Connection: keep-alive
+1 &lt; Date: Fri, 09 Aug 2024 17:04:50 GMT
+1 &lt; WWW-Authenticate: Bearer realm=&quot;teamsso-its04.telus.com&quot;, error=&quot;insufficient_scope&quot;
+1 &lt; Kong-Request-ID: eb6f4909-f352-4285-b4d5-4bac0431873c#182302
+1 &lt; vary: Origin
+1 &lt; vary: Origin
+1 &lt; X-Kong-Response-Latency: 9
+1 &lt; Server: kong/3.4.3.11-enterprise-edition
+1 &lt; X-Kong-Request-Id: 6480592ea4e5855b327f52371cdf5a35
+1 &lt; X-Kong-Upstream-Latency: 59
+1 &lt; X-Kong-Proxy-Latency: 2
+1 &lt; Via: kong/3.4.3.11-enterprise-edition
+{&quot;message&quot;:&quot;Forbidden&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref failed">22</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.22">13:04:50.068 classpath:feature/AccountAccuracy.feature:22
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 201, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=2507166032, response: 
+{&quot;message&quot;:&quot;Forbidden&quot;}
+classpath:feature/AccountAccuracy.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref skipped">23</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList.length &gt; 0</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref skipped">24</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList[0].foundByContactSearch == false</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList[0].accountMatchAccuracy == 100</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.1:54]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">env=it01,it02,it03,it04</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.1:54]</span>
+                <span class="scenario-name">account with wireline contact tn - criteria 4</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>159</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.1:54]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">13:04:50.089 karate.env system property was: it01 
+13:04:50.089 clientId:52e80bfa-b42c-47d7-98b5-8bb87c926209 
+13:04:50.091 Current URL is : https://apigw-st.telus.com 
+13:04:50.091 Current Env is : it01 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header env = env</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header x-cloud-trace-context = &#39;karate-integration-test&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure readTimeout = 20000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+authInfo.response.access_token;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print authInfo.response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.11">13:04:50.095 [print] eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file1 = &#39;tn_search_criteria1.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file2 = &#39;tn_search_criteria2.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file4 = &#39;tn_search_criteria4.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:54]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file8 = &#39;tn_search_criteria8.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;customer/contactCenterCustomerInfo/v1/account&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param tn = &#39;6040522394&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">155</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.47">13:04:50.097 request:
+1 &gt; GET https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040522394
+1 &gt; accept: application/json
+1 &gt; env: it01
+1 &gt; x-cloud-trace-context: karate-integration-test
+1 &gt; Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A
+1 &gt; Host: apigw-st.telus.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:04:50.250 response time in milliseconds: 153
+1 &lt; 403
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 23
+1 &lt; Connection: keep-alive
+1 &lt; Date: Fri, 09 Aug 2024 17:04:50 GMT
+1 &lt; WWW-Authenticate: Bearer realm=&quot;teamsso-its04.telus.com&quot;, error=&quot;insufficient_scope&quot;
+1 &lt; Kong-Request-ID: 813137a7-c89b-4b1b-ab8b-01bbb50fe511#396395
+1 &lt; vary: Origin
+1 &lt; vary: Origin
+1 &lt; X-Kong-Response-Latency: 5
+1 &lt; Server: kong/3.4.3.11-enterprise-edition
+1 &lt; X-Kong-Request-Id: 2091a332078a532794420f6e6cf4d260
+1 &lt; X-Kong-Upstream-Latency: 9
+1 &lt; X-Kong-Proxy-Latency: 1
+1 &lt; Via: kong/3.4.3.11-enterprise-edition
+{&quot;message&quot;:&quot;Forbidden&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.48">
+      <div class="step-ref failed">48</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.48">13:04:50.253 classpath:feature/AccountAccuracy.feature:48
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 153, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040522394, response: 
+{&quot;message&quot;:&quot;Forbidden&quot;}
+classpath:feature/AccountAccuracy.feature:48
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.49">
+      <div class="step-ref skipped">49</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList.length == 1</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.50">
+      <div class="step-ref skipped">50</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList[0].foundByContactSearch == true</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.51">
+      <div class="step-ref skipped">51</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.accountList[0].accountMatchAccuracy == 65</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.1:64]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">env=it01,it02,it03,it04</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.1:64]</span>
+                <span class="scenario-name">account with contact tn zero percentage - criteria 8</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>161</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.1:64]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">13:04:50.274 karate.env system property was: it01 
+13:04:50.274 clientId:52e80bfa-b42c-47d7-98b5-8bb87c926209 
+13:04:50.275 Current URL is : https://apigw-st.telus.com 
+13:04:50.276 Current Env is : it01 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header env = env</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header x-cloud-trace-context = &#39;karate-integration-test&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure readTimeout = 20000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+authInfo.response.access_token;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print authInfo.response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.11">13:04:50.278 [print] eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file1 = &#39;tn_search_criteria1.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file2 = &#39;tn_search_criteria2.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file4 = &#39;tn_search_criteria4.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data_file8 = &#39;tn_search_criteria8.json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;customer/contactCenterCustomerInfo/v1/account&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param tn = &#39;6040585973&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">158</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.60">13:04:50.281 request:
+1 &gt; GET https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040585973
+1 &gt; accept: application/json
+1 &gt; env: it01
+1 &gt; x-cloud-trace-context: karate-integration-test
+1 &gt; Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhZGZhMTYyLTU2YzEtNGRiOS1hNjNmLTYwZTM3NzIwMWJkZiIsInBpLmF0bSI6IjMifQ.eyJzY29wZSI6WyI0NzIwIl0sImF1dGhvcml6YXRpb25fZGV0YWlscyI6W10sImNsaWVudF9pZCI6IjUyZTgwYmZhLWI0MmMtNDdkNy05OGI1LThiYjg3YzkyNjIwOSIsImlzcyI6Imh0dHBzOi8vdGVhbXNzby1pdHMwNC50ZWx1cy5jb20iLCJhdWQiOiJrb25nIiwiaWF0IjoxNzIzMjIzMDg5LCJleHAiOjE3MjMyMjMzODl9.flESEmYyI_eCkBmzn54OkGfP2lAIxnyqs2XbjtABUAmEnkCOQe8uoiUdROg_nBCNsbluJLTMIyv2VQYcEFeVpzwJIN4AH00KC-3px8L7DRMcbbbRqgIOGamUVRjytKBt3cFR1XVCW32bLo_XlS6M0CPdsCtowSRRwenf6htGC3loiXiWZ8pxuYaJNnmQfuSN9rWpZNHc8y-eYDl0xm6EoEXQSfatP3EAxDBw6tgqlb5patcu_afyMqKiHha9IdISwDeMrqyfvgoAR4Sqhdy3Uxp_k_xzmM-XWElgzY0YfiUnRnIl01fsIz1UO7xaed3xVyVlwsYrq6nB9I57SYDk-A
+1 &gt; Host: apigw-st.telus.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:04:50.438 response time in milliseconds: 156
+1 &lt; 403
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 23
+1 &lt; Connection: keep-alive
+1 &lt; Date: Fri, 09 Aug 2024 17:04:51 GMT
+1 &lt; WWW-Authenticate: Bearer realm=&quot;teamsso-its04.telus.com&quot;, error=&quot;insufficient_scope&quot;
+1 &lt; Kong-Request-ID: 9df030cd-e549-46fc-a886-0445fff0e82d#347206
+1 &lt; vary: Origin
+1 &lt; vary: Origin
+1 &lt; X-Kong-Response-Latency: 6
+1 &lt; Server: kong/3.4.3.11-enterprise-edition
+1 &lt; X-Kong-Request-Id: 8dc94a0092cadf6f2c20d03720b93747
+1 &lt; X-Kong-Upstream-Latency: 10
+1 &lt; X-Kong-Proxy-Latency: 2
+1 &lt; Via: kong/3.4.3.11-enterprise-edition
+{&quot;message&quot;:&quot;Forbidden&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.61">
+      <div class="step-ref failed">61</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.61">13:04:50.439 classpath:feature/AccountAccuracy.feature:61
+Then status 404
+status code was: 403, expected: 404, response time in milliseconds: 156, url: https://apigw-st.telus.com/customer/contactCenterCustomerInfo/v1/account?tn=6040585973, response: 
+{&quot;message&quot;:&quot;Forbidden&quot;}
+classpath:feature/AccountAccuracy.feature:61
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
